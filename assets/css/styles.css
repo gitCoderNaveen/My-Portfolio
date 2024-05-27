@@ -83,10 +83,12 @@ a {
   text-decoration: none;
 }
 
-img {
+.rounded {
   max-width: 100%;
   height: auto;
   display: block;
+  border-radius: 20rem;
+  margin: 10px;
 }
 
 /*===== CLASS CSS =====*/
@@ -289,6 +291,7 @@ img {
 
 .home__img img {
   width: 240px;
+  border-radius: 20rem;
 }
 
 .home__social {
@@ -364,7 +367,7 @@ img {
 .about__img {
   justify-self: center;
   width: 220px;
-  border-radius: .5rem;
+  border-radius: 20rem;
 }
 
 /*===== QUALIFICATION =====*/
@@ -589,12 +592,6 @@ img {
   font-size: var(--h3-font-size);
   margin: var(--mb-1) 0;
 }
-.sub_contactDiv{
-  display: grid;
-  grid-template-columns: repeat(2, 10%);
-  justify-content: space-evenly;
-  gap: 100px;
-}
 
 .contact__social {
   color: var(--first-color-light);
@@ -679,6 +676,7 @@ img {
 @media screen and (max-width: 320px) {
   .home__img img {
     width: 200px;
+    border-radius: 20rem;
   }
 }
 
@@ -686,6 +684,7 @@ img {
 @media screen and (min-width: 576px) {
   .home__img img {
     width: 330px;
+    border-radius: 20rem;
   }
   .about__container,
   .qualification__container,
@@ -743,6 +742,7 @@ img {
   }
   .home__img img {
     width: 420px;
+    border-radius: 20rem;
   }
   .about__description {
     text-align: initial;
