@@ -677,6 +677,10 @@ a {
   .home__img img {
     width: 200px;
     border-radius: 20rem;
+    
+  }
+  .qualification__content{
+    width: 200px;
   }
 }
 
